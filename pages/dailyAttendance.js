@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/navbar"
 
-const Home = () => {
+const DailyAttendance = () => {
   return (
     <>
       <div className="flex">
@@ -8,8 +8,9 @@ const Home = () => {
           <Navbar  />
         </div>
       </div>
+      
     </>
   )
 }
 
-export default Home
+export default DailyAttendance
