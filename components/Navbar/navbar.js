@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return(
     <>
-    <div className="mx-0 md:mx-auto lg:mx-auto h-0 md:h-screen">
+    <div className="mx-0 md:mx-auto lg:mx-auto h-0 md:h-screen w-full">
 
       {/* // Logo Gadjian */}
       <Link href="/">

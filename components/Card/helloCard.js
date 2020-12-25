@@ -1,7 +1,7 @@
 const HelloCard = () => {
   return (
     <>
-      <div className="hidden md:flex justify-end w-full h-auto my-auto">
+      <div className="hidden md:flex justify-end w-full h-auto my-auto cyan">
         <p className="my-auto mx-1 font-bold">Hallo,</p>
         <p className="my-auto mr-4 font-bold cyanText">Gadjian User</p>
         <div className="my-auto">
@@ -16,7 +16,6 @@ const HelloCard = () => {
             .cyanText {
               color:  #00aaff;
             }
-         
           `
         }
 
